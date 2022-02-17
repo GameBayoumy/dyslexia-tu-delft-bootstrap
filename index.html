@@ -3,25 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Dsxyliea</title>
-    
-    <meta name="author" content="Victor Widell">
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Le styles -->
     <link href="../dyslexia/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../dyslexia/assets/css/style.css" rel="stylesheet" type="text/css" media="all">
-
-    <!-- Le fav and touch icons -->
-  <!-- Update these with your own images
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-  -->
   </head>
 
   <body>
@@ -49,7 +32,7 @@
     
     <p>A friend who has dyslexia described to me how she experiences reading. She <em>can</em> read, but it takes a lot of concentration, and the letters seems to “jump around”.</p>
     <p>I remembered reading about <a href="https://en.wikipedia.org/wiki/Typoglycemia">typoglycemia</a>. Wouldn’t it be possible to do it interactively on a website with Javascript? Sure it would.</p>
-    <p>Feel like making a bookmarklet of this or something? <a href="https://github.com/geon/geon.github.com/blob/master/_posts/2016-03-03-dsxyliea.md">Fork it</a> on github.</p>
+    <p>Feel like making a bookmarklet of this or something?</p>
     <blockquote>
     <p>Dyslexia is characterized by difficulty with learning to read fluently and with accurate comprehension despite normal intelligence. This includes difficulty with phonological awareness, phonological decoding, processing speed, orthographic coding, auditory short-term memory, language skills/verbal comprehension, and/or rapid naming.</p>
     </blockquote>
@@ -192,9 +175,7 @@ sentences.forEach(sentence => {
 		return messyPart.slice(0, a) + messyPart[b] + messyPart.slice(a+1, b) + messyPart[a] + messyPart.slice(b+1);
 	}
 
-	// From https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 	function getRandomInt(min, max) {
-		
 		return Math.floor(Math.random() * (max - min + 1) + min);
 	}
 
@@ -207,8 +188,8 @@ sentences.forEach(sentence => {
     <hr>
     <div class="pagination">
       <ul>
-        <li class="prev"><a href="/programming/2016/02/24/flexbox-full-page-web-app-layout" title="Flexbox Full Page Web App Layout">&larr; Previous</a></li>
-        <li><a href="/archive.html">Archive</a></li>
+        <li class="prev"><a href="" title="Flexbox Full Page Web App Layout">&larr; Previous</a></li>
+        <li><a href="">Archive</a></li>
         <li class="next disabled"><a>Next &rarr;</a>
       </ul>
     </div>
@@ -220,9 +201,9 @@ sentences.forEach(sentence => {
 
     <h4>Tags</h4>
     <ul class="tag_box">
-    	<li><a href="/tags.html#dyslexia-ref">dyslexia <span>1</span></a></li>
-    	<li><a href="/tags.html#typoglycemia-ref">typoglycemia <span>1</span></a></li>
-    	<li><a href="/tags.html#Javascript-ref">Javascript <span>1</span></a></li>
+    	<li><a href="">dyslexia <span>1</span></a></li>
+    	<li><a href="">typoglycemia <span>1</span></a></li>
+    	<li><a href="">Javascript <span>1</span></a></li>
     </ul>
     
   </div>
@@ -230,7 +211,7 @@ sentences.forEach(sentence => {
       </div>
 
       <footer>
-        <p>&copy; Victor Widell 2012 
+        <p>&copy; Sharif Bayoumy 2022 
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
